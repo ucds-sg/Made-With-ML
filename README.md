@@ -1,5 +1,5 @@
 # Made-With-ML
-An MLOps best practice and project respository.
+A repository for best MLOps practices using BERT-based text-classification model leverging Ray distrbuted training.
 
 ## Initialisation
 
