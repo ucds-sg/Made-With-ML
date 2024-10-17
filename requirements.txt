@@ -8,11 +8,15 @@ numpy==1.24.3
 numpyencoder==0.3.0
 pandas==2.0.1
 python-dotenv==1.0.0
-ray[air]==2.7.0
+ray[air]==2.37.0 #updated as 2.7.0 was buggy for Runconfig
 scikit-learn==1.2.2
 snorkel==0.9.9
 SQLAlchemy==1.4.48
+# Cuda11.8
+--extra-index-url https://download.pytorch.org/whl/cu118
 torch==2.0.0
+torchvision==0.15.1
+torchaudio==2.0.1
 transformers==4.28.1
 
 # Notebook
